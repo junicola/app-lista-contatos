@@ -1,5 +1,5 @@
 {
-  "name": "listacontatos2",
+  "name": "listacontatos",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -19,7 +19,7 @@
     "@babel/runtime": "7.5.5",
     "@react-native-community/eslint-config": "0.0.3",
     "babel-jest": "24.9.0",
-    "eslint": "6.2.1",
+    "eslint": "6.2.2",
     "jest": "24.9.0",
     "metro-react-native-babel-preset": "0.54.1",
     "react-test-renderer": "16.8.6"

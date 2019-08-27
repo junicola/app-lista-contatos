@@ -10,7 +10,7 @@ const Header = (props) => (
 
 const Styles = StyleSheet.create({
     header:  {
-        marginTop: 1,
+        marginTop: 0,
         backgroundColor: '#f8c5fc',
         alignItems: 'center'
     },

@@ -1,8 +1,8 @@
 platform :ios, '9.0'
 require_relative '../node_modules/@react-native-community/cli-platform-ios/native_modules'
 
-target 'listacontatos2' do
-  # Pods for listacontatos2
+target 'listacontatos' do
+  # Pods for listacontatos
   pod 'React', :path => '../node_modules/react-native/'
   pod 'React-Core', :path => '../node_modules/react-native/React'
   pod 'React-DevSupport', :path => '../node_modules/react-native/React'
@@ -27,9 +27,10 @@ target 'listacontatos2' do
   pod 'glog', :podspec => '../node_modules/react-native/third-party-podspecs/glog.podspec'
   pod 'Folly', :podspec => '../node_modules/react-native/third-party-podspecs/Folly.podspec'
 
+
   pod 'RNGestureHandler', :path => '../node_modules/react-native-gesture-handler'
 
-  target 'listacontatos2Tests' do
+  target 'listacontatosTests' do
     inherit! :search_paths
     # Pods for testing
   end
@@ -37,10 +38,10 @@ target 'listacontatos2' do
   use_native_modules!
 end
 
-target 'listacontatos2-tvOS' do
-  # Pods for listacontatos2-tvOS
+target 'listacontatos-tvOS' do
+  # Pods for listacontatos-tvOS
 
-  target 'listacontatos2-tvOSTests' do
+  target 'listacontatos-tvOSTests' do
     inherit! :search_paths
     # Pods for testing
   end

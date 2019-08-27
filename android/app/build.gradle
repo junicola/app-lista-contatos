@@ -128,7 +128,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.listacontatos2"
+        applicationId "com.listacontatos"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
